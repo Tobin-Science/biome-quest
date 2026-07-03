@@ -1,0 +1,17 @@
+/* Local self-hosted fonts — NO Google Fonts / CDN, so the game renders correctly
+   even on locked-down school networks that block fonts.googleapis.com / gstatic.
+   Variable woff2 files cover every weight the game uses. */
+@font-face{
+  font-family:'Lexend';
+  font-style:normal;
+  font-weight:300 700;
+  font-display:swap;
+  src:url('fonts/lexend.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Space Grotesk';
+  font-style:normal;
+  font-weight:500 700;
+  font-display:swap;
+  src:url('fonts/space-grotesk.woff2') format('woff2');
+}

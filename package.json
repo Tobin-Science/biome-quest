@@ -1,0 +1,11 @@
+{
+  "name": "biome-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Biome Quest — one-time purchase + 150 reusable student codes (mirrors Earth Quest).",
+  "dependencies": {
+    "stripe": "^17.5.0",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
